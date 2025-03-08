@@ -13,7 +13,9 @@
 1. I have a **dog**
 2. My **hobbies** are *drawing and playing video games*
 
-A meme that captures how I currently feel about my university studies is ![](https://media.tenor.com/eobRu0D3lf4AAAAi/jamma-orb-jamma.gif)
+<h4>A meme that captures how I currently feel about my university studies is</h4>  
+
+![](https://media.tenor.com/eobRu0D3lf4AAAAi/jamma-orb-jamma.gif)
 
 [**Very important:**](https://youtu.be/dQw4w9WgXcQ?feature=shared)
 
