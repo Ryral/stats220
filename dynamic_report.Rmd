@@ -18,9 +18,6 @@ p {
 font-family: 'Lucida Console';
 }
 
-h4 {
-font-family: 'Lucida Console';
-}
 ```
 
 ## How has my mood been lately?
@@ -78,13 +75,13 @@ graph_two <- latest_data %>%
 
 ### Summary Values
 
-<h4> Summary Value #1 </h4>
+#### Summary Value #1 
 The highest recorded mood scale from 1-10 was `r summary_one`.
 
 
 7/10 is the max value in terms of being in a good mood recorded within the data.
 
-<h4> Summary Value #2 </h4>
+#### Summary Value #2 
 
 The total of all the mood scale ratings from 1-10 was `r summary_two`.
 
@@ -93,7 +90,7 @@ This shows that the mood scale ratings are relatively low for most responses.
 
 ### Bar Charts
 
-<h4> Graph One: Most Common Moods </h4>
+#### Graph One: Most Common Moods 
 
 ``` {r}
 graph_one <- latest_data %>% 
@@ -111,7 +108,7 @@ print(graph_one)
 This bar chart shows that the most common mood among respondents is *Stressed*.
 
 
-<h4> Graph Two: Self Mood Improvement Suggestions based on Current Moods recorded </h4>
+#### Graph Two: Self Mood Improvement Suggestions based on Current Moods recorded 
 
 ``` {r}
 graph_two <- latest_data %>% 
