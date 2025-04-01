@@ -9,11 +9,6 @@ knitr::opts_chunk$set(echo=FALSE, message=FALSE, warning=FALSE, error=FALSE)
 ```
 
 ```{css}
-
-body {
-background-image: linear-gradient(#ffffff, #f8e8ff);
-}
-
 p {
 font-family: 'Lucida Console';
 }
