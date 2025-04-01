@@ -9,6 +9,11 @@ knitr::opts_chunk$set(echo=FALSE, message=FALSE, warning=FALSE, error=FALSE)
 ```
 
 ```{css}
+
+body {
+background-image: linear-gradient(#ffffff, #f8e8ff);
+}
+
 p {
 font-family: 'Lucida Console';
 }
@@ -18,7 +23,7 @@ font-family: 'Lucida Console';
 }
 ```
 
-## How has everyones mood been lately?
+## How has my mood been lately?
 
 
 ```{r}
@@ -59,7 +64,7 @@ graph_one <- latest_data %>%
        y = "Number of responses")
 
 
-#Bar chart showcasing the current moods of respondents with various mood improving suggestions that they have for themselves
+#Bar chart showcasing the current moods with various mood improving suggestions
 graph_two <- latest_data %>% 
   ggplot() +
     geom_bar(aes(y = mood_improvement, fill = current_mood)) +
